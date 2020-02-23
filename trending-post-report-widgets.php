@@ -60,7 +60,7 @@ function trending_posts_query(){
 	
 	if( $query->have_posts() ){
 		?>
-		<table>
+		<table class="tpw">
 			<tr>
 				<th><?php esc_html_e( 'Post Title', 'trending-post-widget' ); ?></th>
 				<th><?php esc_html_e( 'Number of Views', 'trending-post-widget' ); ?></th>
@@ -93,7 +93,7 @@ function trending_posts_comment_query() {
 	);
 
 	?>
-		<table>
+		<table class="tpw">
 			<tr>
 				<th><?php esc_html_e( 'Post Title', 'trending-post-widget' ); ?></th>
 				<th><?php esc_html_e( 'Number of Comments', 'trending-post-widget' ); ?></th>
