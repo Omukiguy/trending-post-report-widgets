@@ -15,7 +15,7 @@
  */
 
 // EDIT: Make this unique. Example: YourDevName\YourPluginName;
-namespace ClassicCommerce\WooCompatibility;
+namespace omukiguy\Trending_Post_Widget;
 
 // EDIT: URL where Update Manager is installed; with trailing slash!
 const UPDATE_SERVER = 'https://classiccommerce.cc/';

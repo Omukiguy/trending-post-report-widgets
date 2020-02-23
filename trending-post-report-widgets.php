@@ -10,7 +10,7 @@
  * text-domain: 	trending-post-widget
  */
 
-namespace Trending_Post_Widget;
+namespace omukiguy\Trending_Post_Widget;
 
 defined( 'ABSPATH' ) or die( 'Unauthorized Access' );
 
