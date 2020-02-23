@@ -1,0 +1,17 @@
+table {
+        width: 100%;
+}
+
+th {
+        background: #cccccc;
+        text-align: left;
+}
+
+tr:nth-child(even) {
+        background: #eee;
+
+}
+
+td {
+        border: 0;
+}
