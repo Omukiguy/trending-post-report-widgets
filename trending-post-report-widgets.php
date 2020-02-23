@@ -7,7 +7,7 @@
  * Plugin Author: 	Laurence Bahiirwa
  * Author URI: 		https://omukiguy.com
  * License:			GPL2 or Later
- * text-domain: 	trending-post-widget
+ * text-domain: 	trending-post-report-widget
  */
 
 namespace omukiguy\Trending_Post_Widget;
@@ -62,8 +62,8 @@ function trending_posts_query(){
 		?>
 		<table class="tpw">
 			<tr>
-				<th><?php esc_html_e( 'Post Title', 'trending-post-widget' ); ?></th>
-				<th><?php esc_html_e( 'Number of Views', 'trending-post-widget' ); ?></th>
+				<th><?php esc_html_e( 'Post Title', 'trending-post-report-widget' ); ?></th>
+				<th><?php esc_html_e( 'Number of Views', 'trending-post-report-widget' ); ?></th>
 			</tr>
 			
 
@@ -95,8 +95,8 @@ function trending_posts_comment_query() {
 	?>
 		<table class="tpw">
 			<tr>
-				<th><?php esc_html_e( 'Post Title', 'trending-post-widget' ); ?></th>
-				<th><?php esc_html_e( 'Number of Comments', 'trending-post-widget' ); ?></th>
+				<th><?php esc_html_e( 'Post Title', 'trending-post-report-widget' ); ?></th>
+				<th><?php esc_html_e( 'Number of Comments', 'trending-post-report-widget' ); ?></th>
 			</tr>
 
 			<?php
