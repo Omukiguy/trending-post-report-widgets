@@ -3,16 +3,18 @@
  * Plugin name: 	Trending Post Reports Widgets
  * Description: 	Post Traffic report dashboard Widgets showing the most viewed posts and most commented on post.
  * Plugin URI: 		https://omukiguy.com
- * Version:		0.1.0
+ * Version:			0.1.0
  * Plugin Author: 	Laurence Bahiirwa
  * Author URI: 		https://omukiguy.com
- * License:		GPL2 or Later
+ * License:			GPL2 or Later
  * text-domain: 	trending-post-widget
  */
 
 namespace Trending_Post_Widget;
 
 defined( 'ABSPATH' ) or die( 'Unauthorized Access' );
+
+require_once dirname( __FILE__ ) . '/includes/UpdateClient.class.php';
 
 remove_action( 'wp_head', __NAMESPACE__ . '\adjacent_posts_rel_link_wp_head' );
 
