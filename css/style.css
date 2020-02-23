@@ -1,17 +1,30 @@
-table {
-        width: 100%;
+table.tpw {
+	width: 100%;
 }
 
-th {
-        background: #cccccc;
-        text-align: left;
+table.tpw th {
+	background: #cccccc;
+	text-align: left;
 }
 
-tr:nth-child(even) {
-        background: #eee;
+table.tpw tr:nth-child(even) {
+	background: #eee;
 
 }
 
-td {
-        border: 0;
+table.tpw td {
+	border: 0;
+}
+
+table.tpw th {
+	padding: 5px 10px;
+}
+
+table.tpw td {
+	padding: 2px 10px;
+}
+
+table.tpw td:nth-child(2) {
+	width: 30%;
+	text-align: center;
 }
